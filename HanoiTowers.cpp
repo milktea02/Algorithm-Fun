@@ -20,6 +20,9 @@ int main() {
 	int levels;
 	cout << "How many levels is your tower? " << endl;
 	cin >> levels;
+	// This makes the assumption that you want to go from Left peg to Right peg.
+	// I could add code to ask user input what their starting, ending, and temporary
+	// peg destinations are.
 	solveHanoi(levels, "L", "R", "M");
 	return 0;
 	
