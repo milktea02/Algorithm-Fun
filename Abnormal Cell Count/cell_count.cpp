@@ -38,7 +38,7 @@ int main() {
 	string line;
 	ifstream map;
 	map.open("map.txt");
-	cout << "This is how the grid looks like: " << endl;
+	cout << "This is how the grid looks like, areas marked in A are abnormal blob cells: " << endl;
 	while (getline(map, line)) {
 		cout << line << endl;
 	}
